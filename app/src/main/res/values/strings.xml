@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Island of Hvar</string>
+    <string name="description_text">
+        Hvar is vaguely shaped like the profile of a holidaymaker reclining on a sun-lounger,
+        which is altogether appropriate for the sunniest spot in the country (2724 sunny hours each year)
+        and its most luxurious beach destination.\n\n
+        Hvar Town offers swanky hotels, elegant restaurants and a general sense that, if you care about seeing and being seen,
+        this is the place to be. Rubbing shoulders with the posh yachting are hundreds of young party goers,
+        dancing on tables at the town\'s legendary beach bars. The northern coastal towns of Stari Grad and Jelsa
+        are far more subdued and low-key.\n\n
+        Hvar\'s interior hides abandoned ancient hamlets, craggy peaks, vineyards and the lavender fields that the island is famous for.
+        This region is worth exploring on a day trip, as is the island\'s southern coast,
+        which has some of Hvar most beautiful and isolated coves.\n
+        The fabulous Hvar needs little introduction for anyone aware of the beautiful Croatian coastline.
+        The sunniest island in Europe attracts thousands of boaters, party-goers, and nature lovers every year.
+        It is an absolute must on anyone\'s Croatia itinerary. If you\'re only spending 24 hours in Hvar, make sure
+        to follow this itinerary to get the best out of your Hvar experience.
+    </string>
+    <string name="enter_label">Enter</string>
+    <string name="home_label">Home</string>
+    <string name="tours_label">Tours</string>
+    <string name="shop_label">Shop</string>
+    <string name="tours_header_label">TOURS</string>
+    <string name="tours_content">Take a guided tour of the town of Hvar, swim in a secluded bay at one of the Pakleni Islands,
+        and take dip off the shores of Brač Island on this catamaran cruise from Split. Enjoy a delicious lunch, snacks,
+        and unlimited water, soft drinks, wine, and beer.
+        Begin with a relaxed cruise on a mega catamaran to the beautiful Brač Island.\n
+        Visit the town of Hvar, where a guide will take you sightseeing and show you the most important
+        attractions of the old town. After the tour, you will have about an hour to continue exploring on your own.
+    </string>
+    <string name="shop_header_label">Our products</string>
+    <string name="shop_button_label">Continue Shopping</string>
+    <string name="cart_content">Don’t forget about using the coupon codes you will
+        find around our website. They change frequently, but are always a great bargain… if we
+        do say so ourselves. If you have any questions, don’t hesitate to reach out. We love
+        helping our customers.
+    </string>
+    <string name="bottle_image">Image of the olive oil bottle</string>
+    <string name="product_size_label">%d ml bottle</string>
+    <string name="product_image_label">Bottle of olive oil</string>
+    <string name="add_to_cart_label">Add to Cart</string>
+</resources>
