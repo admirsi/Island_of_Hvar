@@ -11,7 +11,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.myapplication.databinding.ActivityMainBinding
 
-const val LOG_TAG = "two_trees_oil"
+const val LOG_TAG = "island_of_hvar"
 
 class MainActivity : FragmentActivity() {
 
