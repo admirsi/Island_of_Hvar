@@ -38,6 +38,7 @@ class DetailFragment : Fragment() {
                 binding.descriptionText.text = description
                 binding.sizeText.text = getString(R.string.product_size_label, size)
                 binding.priceText.text = NumberFormat.getCurrencyInstance().format(price)
+                //binding.priceText.text = NumberFormat.getCurrencyInstance().format(property.price)
             }
         }
     }
