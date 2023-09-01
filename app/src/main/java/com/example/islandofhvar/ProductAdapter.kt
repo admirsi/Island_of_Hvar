@@ -1,12 +1,13 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import android.icu.text.NumberFormat
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.example.myapplication.data.Product
-import com.example.myapplication.databinding.ProductItemBinding
+import com.example.islandofhvar.R
+import com.example.islandofhvar.data.Product
+import com.example.islandofhvar.databinding.ProductItemBinding
 
 class ProductAdapter(private val items: List<Product>, private val onItemClick: (Product) -> Unit)
     : RecyclerView.Adapter<ProductAdapter.ViewHolder>() {

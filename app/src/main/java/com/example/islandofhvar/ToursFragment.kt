@@ -1,11 +1,11 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.FragmentToursBinding
+import com.example.islandofhvar.databinding.FragmentToursBinding
 
 class ToursFragment : Fragment() {
 

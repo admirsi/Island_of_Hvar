@@ -1,4 +1,4 @@
-package com.example.myapplication.data
+package com.example.islandofhvar.data
 
 import com.squareup.moshi.Json
 

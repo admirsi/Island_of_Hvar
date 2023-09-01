@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import android.os.Bundle
 import android.util.Log
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.example.myapplication.R.id.action_shopFragment_to_detailFragment
-import com.example.myapplication.data.Product
-import com.example.myapplication.databinding.FragmentShopBinding
+import com.example.islandofhvar.R.id.action_shopFragment_to_detailFragment
+import com.example.islandofhvar.data.Product
+import com.example.islandofhvar.databinding.FragmentShopBinding
 
 class ShopFragment : Fragment() {
 

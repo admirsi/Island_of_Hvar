@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import android.icu.text.NumberFormat
 import android.os.Bundle
@@ -8,7 +8,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import coil.load
-import com.example.myapplication.databinding.FragmentDetailBinding
+import com.example.islandofhvar.R
+import com.example.islandofhvar.databinding.FragmentDetailBinding
 
 class DetailFragment : Fragment() {
 
@@ -36,7 +37,7 @@ class DetailFragment : Fragment() {
                 binding.productImage.load(imageFile)
                 binding.productNameText.text = name
                 binding.descriptionText.text = description
-                binding.sizeText.text = getString(R.string.product_size_label, size)
+                binding.sizeText.text = getString(com.example.islandofhvar.R.string.product_size_label, size)
                 binding.priceText.text = NumberFormat.getCurrencyInstance().format(price)
                 //binding.priceText.text = NumberFormat.getCurrencyInstance().format(property.price)
             }
