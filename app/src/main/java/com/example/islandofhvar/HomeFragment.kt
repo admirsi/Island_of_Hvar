@@ -1,11 +1,12 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.FragmentHomeBinding
+import com.example.islandofhvar.R
+import com.example.islandofhvar.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

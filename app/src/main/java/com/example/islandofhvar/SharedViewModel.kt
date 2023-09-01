@@ -1,8 +1,8 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import androidx.lifecycle.*
-import com.example.myapplication.data.Product
-import com.example.myapplication.data.ProductRepository
+import com.example.islandofhvar.data.Product
+import com.example.islandofhvar.data.ProductRepository
 
 class SharedViewModel : ViewModel() {
 

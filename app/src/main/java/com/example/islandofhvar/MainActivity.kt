@@ -1,15 +1,12 @@
-package com.example.myapplication
+package com.example.islandofhvar
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.add
-import androidx.fragment.app.commit
-import androidx.fragment.app.replace
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.NavHost
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.islandofhvar.R
+import com.example.islandofhvar.databinding.ActivityMainBinding
 
 const val LOG_TAG = "island_of_hvar"
 
