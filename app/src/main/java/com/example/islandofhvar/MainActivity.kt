@@ -2,10 +2,10 @@ package com.example.islandofhvar
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
-import androidx.lifecycle.ViewModelProvider
+//import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.example.islandofhvar.R
+import com.example.islandofhvar.R.id
 import com.example.islandofhvar.databinding.ActivityMainBinding
 
 const val LOG_TAG = "island_of_hvar"
@@ -21,11 +21,11 @@ class MainActivity : FragmentActivity() {
 
         if (savedInstanceState != null) return
 
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.container) as NavHostFragment
+        val navHostFragment = supportFragmentManager.findFragmentById(id.container) as NavHostFragment
         val navController = navHostFragment.navController
         binding.bottomNavigation.setupWithNavController(navController)
 
-        val viewModel = ViewModelProvider(this)[SharedViewModel::class.java]
+        //val viewModel = ViewModelProvider(this)[SharedViewModel::class.java]
     }
 
     private fun updateBadge(count: Int) {

@@ -2,12 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 33
-    buildToolsVersion '33.0.2'
+    compileSdk 33
+    buildToolsVersion = '33.0.2'
 
     defaultConfig {
         applicationId "com.example.islandofhvar"
         minSdkVersion 24
+        //noinspection OldTargetApi
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
@@ -44,13 +45,17 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+    //noinspection GradleDependency
     implementation 'androidx.activity:activity-ktx:1.7.1'
+    //noinspection GradleDependency
     implementation 'androidx.fragment:fragment-ktx:1.5.7'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'io.coil-kt:coil:2.3.0'
     implementation 'com.squareup.moshi:moshi-kotlin:1.15.0'
 
+    //noinspection GradleDependency
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
+    //noinspection GradleDependency
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'

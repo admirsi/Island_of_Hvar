@@ -6,7 +6,7 @@ import com.example.islandofhvar.data.ProductRepository
 
 class SharedViewModel : ViewModel() {
 
-    var productRepository: ProductRepository = ProductRepository()
+    private var productRepository: ProductRepository = ProductRepository()
 
     val selectedProduct: MutableLiveData<Product> = MutableLiveData()
 
