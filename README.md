@@ -1,5 +1,5 @@
 # Mobile Apps Project Files
-s
+
 ![Island of Hvar][lil-thumbnail-url] 
 
 ## Installing
@@ -14,3 +14,4 @@ Admir Sivro
                             
 _Software Developer, Educator, Trainer_
 
+[lil-thumbnail-url]: https://shorturl.at/ruwRU
