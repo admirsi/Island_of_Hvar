@@ -28,15 +28,5 @@ class MainActivity : FragmentActivity() {
         //val viewModel = ViewModelProvider(this)[SharedViewModel::class.java]
     }
 
-    private fun updateBadge(count: Int) {
-        val badge = binding.bottomNavigation.getOrCreateBadge(R.id.action_shop)
-        if (count > 0) {
-            badge.number = count
-            badge.isVisible = true
-        } else {
-            badge.clearNumber()
-            badge.isVisible = false
-        }
-    }
 
 }

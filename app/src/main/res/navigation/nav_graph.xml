@@ -16,6 +16,11 @@
         android:label="fragment_tours"
         tools:layout="@layout/fragment_tours" />
     <fragment
+        android:id="@+id/action_activities"
+        android:name="com.example.islandofhvar.ActivitiesFragment"
+        android:label="fragment_activities"
+        tools:layout="@layout/fragment_activities" />
+    <fragment
         android:id="@+id/action_shop"
         android:name="com.example.islandofhvar.ShopFragment"
         android:label="fragment_shop"
