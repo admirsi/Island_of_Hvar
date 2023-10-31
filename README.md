@@ -1,4 +1,4 @@
-# Mobile Apps Project Files
+# Island of Hvar Tourist Guide
 
 ![Island of Hvar][lil-thumbnail-url] 
 
