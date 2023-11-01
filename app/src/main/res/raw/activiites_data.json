@@ -1,0 +1,65 @@
+[
+  {
+    "activityName": "Hvar: Stand Up Paddle Board Rental",
+    "imageFile": "HvarStandUpPaddleBoardRental",
+    "description": "Explore Hvar by stand up paddle (SUP) board and discover this extraordinary sport. Our instructors will show you how to make your first steps on the board or show you the best places to go.",
+    "duration": 1,
+    "price": 15
+  },
+  {
+    "activityName": "From Tučepi: Makarska Riviera Private Sailing Day Trip",
+    "imageFile": "FromTucepiMakarskaRivieraPrivateSailingDay",
+    "description": "Experience the Makarska Riviera on this private sailing day tour. Enjoy a glass of sparkling wine, then sail to Hvar or Brač island, swim and snorkel, and relax surrounded by scenic beauty.",
+    "duration": 7,
+    "price": 399
+  },
+  {
+    "activityName": "Hvar: Rock Climbing or Deep Water Solo",
+    "imageFile": "HvarRockClimbingorDeepWaterSolo.webp",
+    "description": "Adventure unlike any other with a climbing experience that will take your breath away.",
+    "duration": 4,
+    "price": 90
+  },
+  {
+    "activityName": "Podstrana: Guided Horseback Riding Experience",
+    "imageFile": "PodstranaGuidedHorsebackRidingExperience.webp",
+    "description": "Enjoy an unforgettable horseback riding experience as you ride along the coastline and mountain terrain from Podstrana. Explore an ancient Roman trail along the peninsula surrounded by breathtaking nature on this horseback riding activity.",
+    "duration": 2,
+    "price": 85
+  },
+  {
+    "activityName": "From Split: Blue Cave, Hvar, 5 Islands Speedboat Tour",
+    "imageFile": "FromSplitBlueCave&FiveIslandsWithHvarBoatTour",
+    "description": "Discover the famous Blue Cave, Mamma Mia town Komiža, and secret beaches on this speedboat tour. Explore hidden parts of the 5 islands and swim in pristine turquoise lagoons.",
+    "duration": 10,
+    "price": 114
+  },
+  {
+    "activityName": "From Split: Blue Cave & Five Islands With Hvar Boat Tour",
+    "imageFile": "FromSplitBlueCave&FiveIslandsWithHvarBoatTour.webp",
+    "description": "Explore 5 islands in the Adriatic Sea on a 10-hour tour of Hvar, Biševo, Vis, Budikovac, and Pakleni. Go to the Blue Cave and admire its natural beauty and stunning beaches.",
+    "duration": 10,
+    "price": 89
+  },
+  {
+    "activityName": "From Hvar: Yacht Tour to the Pakleni Islands",
+    "imageFile": "FromHvarYachtTourtothePakleniIslands",
+    "description": "Escape from Hvar's hustle and bustle with a sailing adventure on this tour to the Pakleni islands. Spend the day taking in stunning landscapes, snorkeling in clear waters, and paddle boarding.",
+    "duration": 4,
+    "price": 59
+  },
+  {
+    "activityName": "Split: Full-Day Catamaran Cruise to Hvar & Pakleni Islands",
+    "imageFile": "SplitFullDayCatamaranCruisetoHvar&PakleniIslands",
+    "description": "Sail by catamaran to Hvar and Pakleni Islands. Explore Hvar's old town and stop to swim in peaceful bays before returning to Split as the sun sets.",
+    "duration": 10,
+    "price": 115
+  },
+  {
+    "activityName": "From Split & Trogir: 5 Islands Day Trip with Blue Cave\n",
+    "imageFile": "FromSplit&Trogir5IslandsDayTripwithBlueCave",
+    "description": "Head on an adventurous small-group or private 5-island tour by speedboat, including snorkeling in pristine blue waters, a visit to the charming village of Komiža, and sightseeing in Hvar.",
+    "duration": 11,
+    "price": 99
+  }
+]

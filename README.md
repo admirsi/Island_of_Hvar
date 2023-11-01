@@ -1,6 +1,6 @@
 # Island of Hvar Tourist Guide
 
-![Island of Hvar][lil-thumbnail-url] 
+![Island of Hvar][project-thumbnail-url] 
 
 ## Installing
 1. To use these files, you must have the following installed:
@@ -14,4 +14,4 @@ Admir Sivro
                             
 _Software Developer, Educator, Trainer_
 
-[lil-thumbnail-url]: https://shorturl.at/ruwRU
+[project-thumbnail-url]: https://shorturl.at/ruwRU

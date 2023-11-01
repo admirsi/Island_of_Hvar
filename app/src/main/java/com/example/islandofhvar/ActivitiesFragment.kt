@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.islandofhvar.activities.Activities
 import com.example.islandofhvar.databinding.FragmentActivitiesBinding
 
 class ActivitiesFragment : Fragment() {
@@ -19,6 +20,7 @@ class ActivitiesFragment : Fragment() {
         _binding = FragmentActivitiesBinding.inflate(inflater, container, false)
         return binding.root
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
