@@ -1,11 +1,11 @@
-package com.example.islandofhvar
+package com.example.islandofhvar.products
 
 import android.icu.text.NumberFormat
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-//import com.example.islandofhvar.R
+import com.example.islandofhvar.R
 import com.example.islandofhvar.data.Product
 import com.example.islandofhvar.databinding.ProductItemBinding
 

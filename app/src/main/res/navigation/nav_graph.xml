@@ -12,17 +12,24 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/action_tours"
-        android:name="com.example.islandofhvar.ToursFragment"
+        android:name="com.example.islandofhvar.tours.ToursFragment"
         android:label="fragment_tours"
         tools:layout="@layout/fragment_tours" />
     <fragment
         android:id="@+id/action_activities"
-        android:name="com.example.islandofhvar.ActivitiesFragment"
+        android:name="com.example.islandofhvar.activities.ActivitiesFragment"
         android:label="fragment_activities"
-        tools:layout="@layout/fragment_activities" />
+        tools:layout="@layout/fragment_activities" >
+        <action
+            android:id="@+id/action_action_activities_to_detailActivitiesFragment"
+            app:destination="@id/detailActivitiesFragment" />
+        <action
+            android:id="@+id/action_action_activities_to_detailActivitiesFragment2"
+            app:destination="@id/detailActivitiesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/action_shop"
-        android:name="com.example.islandofhvar.ShopFragment"
+        android:name="com.example.islandofhvar.products.ShopFragment"
         android:label="fragment_shop"
         tools:layout="@layout/fragment_shop" >
         <action
@@ -31,7 +38,16 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.islandofhvar.DetailFragment"
+        android:name="com.example.islandofhvar.products.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/detailActivitiesFragment"
+        android:name="com.example.islandofhvar.activities.DetailActivitiesFragment"
+        android:label="DetailActivitiesFragment" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.islandofhvar.MainActivity"
+        android:label="content_scrolling"
+        tools:layout="@layout/content_scrolling" />
 </navigation>

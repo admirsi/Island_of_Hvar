@@ -1,6 +1,5 @@
 package com.example.islandofhvar.activities
 
-import com.example.islandofhvar.SharedViewModel
 import android.icu.text.NumberFormat
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import coil.load
 import com.example.islandofhvar.R.string
 import com.example.islandofhvar.databinding.FragmentActivitiesDetailBinding
-import com.example.islandofhvar.databinding.FragmentDetailBinding
 
 class DetailActivitiesFragment : Fragment() {
 
@@ -34,10 +32,10 @@ class DetailActivitiesFragment : Fragment() {
             ViewModelProvider(requireActivity())[SharedActivitiesModel::class.java]
         }
 
-        viewModel?.selectedActivities?.observe(viewLifecycleOwner) { product ->
-            with(product) {
+        viewModel?.selectedActivities?.observe(viewLifecycleOwner) { activities ->
+            with(activities) {
                 binding.productImage.load(imageFile)
-                binding.productNameText.text = activityName
+                binding.productNameText.text = name
                 binding.descriptionText.text = description
                 binding.sizeText.text = getString(string.product_size_label, duration)
                 binding.priceText.text = NumberFormat.getCurrencyInstance().format(price)

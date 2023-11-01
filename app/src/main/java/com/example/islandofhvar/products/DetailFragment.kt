@@ -1,4 +1,4 @@
-package com.example.islandofhvar
+package com.example.islandofhvar.products
 
 import android.icu.text.NumberFormat
 import android.os.Bundle

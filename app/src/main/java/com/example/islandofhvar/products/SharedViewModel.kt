@@ -1,4 +1,4 @@
-package com.example.islandofhvar
+package com.example.islandofhvar.products
 
 import androidx.lifecycle.*
 import com.example.islandofhvar.data.Product

@@ -31,7 +31,7 @@ class ActivitiesAdapter(private val items: List<Activities>, private val onItemC
             productImage.load(activities.imageFile) {
                 crossfade(true)
             }
-            productNameText.text = activities.activityName
+            productNameText.text = activities.name
             sizeText.text = sizeText.context.resources.getString(
                 R.string.product_size_label,
                 activities.duration

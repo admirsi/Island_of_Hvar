@@ -1,4 +1,4 @@
-package com.example.islandofhvar
+package com.example.islandofhvar.tours
 
 import android.os.Bundle
 import android.view.LayoutInflater

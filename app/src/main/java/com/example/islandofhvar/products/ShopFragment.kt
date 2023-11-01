@@ -1,4 +1,4 @@
-package com.example.islandofhvar
+package com.example.islandofhvar.products
 
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import com.example.islandofhvar.LOG_TAG
 import com.example.islandofhvar.R.id.action_shopFragment_to_detailFragment
 import com.example.islandofhvar.data.Product
 import com.example.islandofhvar.databinding.FragmentShopBinding
