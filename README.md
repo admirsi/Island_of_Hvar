@@ -3,9 +3,7 @@
 ![Island of Hvar][project-thumbnail-url] 
 
 ## About 
-        Hvar is vaguely shaped like the profile of a holidaymaker reclining on a sun-lounger,
-        which is altogether appropriate for the sunniest spot in the country (2724 sunny hours each year)
-        and its most luxurious beach destination.\n\n
+Hvar is vaguely shaped like the profile of a holidaymaker reclining on a sun-lounger, which is altogether appropriate for the sunniest spot in the country (2724 sunny hours each year) and its most luxurious beach destination.
 ## Installing
 1. To use these files, you must have the following installed:
 	- Android Studio
