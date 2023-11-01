@@ -29,12 +29,6 @@
         attractions of the old town.
     </string>
     <string name="shop_header_label">Domestic Olive Oil</string>
-    <string name="shop_button_label">Continue Shopping</string>
-    <string name="cart_content">Don’t forget about using the coupon codes you will
-        find around our website. They change frequently, but are always a great bargain… if we
-        do say so ourselves. If you have any questions, don’t hesitate to reach out. We love
-        helping our customers.
-    </string>
     <string name="bottle_image">Image of the olive oil bottle</string>
     <string name="activities_image">Image of activities</string>
     <string name="product_size_label">%d ml bottle</string>
@@ -42,7 +36,6 @@
     <string name="product_image_label">Bottle of olive oil</string>
     <string name="activities_length_label">%d hour</string>
     <string name="activities_image_label">Activities and Tours</string>
-    <string name="add_to_cart_label">Add to Cart</string>
     <string name="activities_label">Activities</string>
     <string name="activities_header_label">ACTIVITIES</string>
     <string name="activities_content">Discovering Hvar Island, Croatia: A Mosaic of Experiences\nHvar Island beckons with a wealth of activities for all tastes. Explore Hvar Town\'s historical treasures, from the commanding Hvar Fortress to the vibrant St. Stephen\'s Square. Bask in the sun at pristine beaches like Dubovica and Milna, offering opportunities for water sports and relaxation.\nVenture to the Pakleni Islands for secluded paradises, while neighboring towns like Stari Grad reveal a different cultural hue. Indulge in wine tastings at local vineyards or savor the island\'s cultural essence at the Franciscan Monastery and fragrant lavender fields.\nHiking trails in the Hvar Nature Park offer breathtaking vistas, while the island\'s evenings come alive with vibrant nightlife in numerous bars and clubs. Delight in traditional Dalmatian cuisine and partake in seasonal events like Yacht Week and cultural festivities for a truly immersive experience.\nHvar Island\'s fusion of history, nature, and contemporary allure ensures a journey that caters to every visitor\'s penchant, crafting unforgettable memories in this Croatian gem.</string>

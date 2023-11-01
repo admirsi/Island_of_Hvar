@@ -2,7 +2,6 @@ package com.example.islandofhvar
 
 import android.os.Bundle
 import androidx.fragment.app.FragmentActivity
-//import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.islandofhvar.R.id
@@ -24,8 +23,6 @@ class MainActivity : FragmentActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(id.container) as NavHostFragment
         val navController = navHostFragment.navController
         binding.bottomNavigation.setupWithNavController(navController)
-
-        //val viewModel = ViewModelProvider(this)[SharedViewModel::class.java]
     }
 
 
