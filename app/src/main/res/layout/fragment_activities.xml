@@ -6,37 +6,24 @@
     android:layout_height="match_parent"
     tools:context="com.example.islandofhvar.activities.ActivitiesFragment">
 
-    <ImageView
-        android:id="@+id/cartImage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="24dp"
-        android:src="@drawable/ic_outline_product"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
-        android:id="@+id/cartHeaderText"
+        android:id="@+id/activitiesHeaderText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/shop_header_label"
+        android:text="@string/activities_image_label"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/colorGrey"
+        android:textColor="@color/colorPrimary"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartImage" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/productList"
+        android:id="@+id/activitiesList"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -48,10 +35,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartHeaderText"
+        app:layout_constraintTop_toBottomOf="@+id/activitiesHeaderText"
         app:layout_constraintVertical_bias="0.0"
         app:spanCount="2"
-        tools:listitem="@layout/product_item" />
+        tools:listitem="@layout/fragment_tours" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

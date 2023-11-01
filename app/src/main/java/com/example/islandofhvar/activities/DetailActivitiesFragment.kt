@@ -34,10 +34,10 @@ class DetailActivitiesFragment : Fragment() {
 
         viewModel?.selectedActivities?.observe(viewLifecycleOwner) { activities ->
             with(activities) {
-                binding.productImage.load(imageFile)
-                binding.productNameText.text = name
+                binding.activitiesImage.load(imageFile)
+                binding.activitiesNameText.text = name
                 binding.descriptionText.text = description
-                binding.sizeText.text = getString(string.product_size_label, duration)
+                binding.durationText.text = getString(string.activities_duration_label, duration)
                 binding.priceText.text = NumberFormat.getCurrencyInstance().format(price)
                 //binding.priceText.text = NumberFormat.getCurrencyInstance().format(property.price)
             }

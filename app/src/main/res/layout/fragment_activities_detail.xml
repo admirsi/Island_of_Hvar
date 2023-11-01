@@ -5,36 +5,38 @@
     android:id="@+id/containerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.islandofhvar.products.DetailFragment" >
+    tools:context="com.example.islandofhvar.activities.DetailActivitiesFragment" >
 
     <ImageView
-        android:id="@+id/productImage"
+        android:id="@+id/activitiesImage"
         android:layout_width="0dp"
         android:layout_height="300dp"
         android:layout_margin="8dp"
         android:layout_marginTop="24dp"
-        android:contentDescription="@string/product_image_label"
+        android:contentDescription="@string/activities_image"
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/basil_bottle" />
+        tools:srcCompat="@drawable/olive_field" />
 
     <TextView
-        android:id="@+id/productNameText"
+        android:id="@+id/activitiesNameText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/productImage"
-        tools:text="Delicate" />
+        app:layout_constraintTop_toBottomOf="@id/activitiesImage"
+        tools:text="Activities" />
 
     <TextView
         android:id="@+id/descriptionText"
@@ -48,11 +50,11 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/productNameText"
+        app:layout_constraintTop_toBottomOf="@id/activitiesNameText"
         tools:text="This is the description" />
 
     <TextView
-        android:id="@+id/sizeText"
+        android:id="@+id/durationText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -62,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/descriptionText"
-        tools:text="500 ml bottle" />
+        tools:text="10 hours" />
 
     <TextView
         android:id="@+id/priceText"
@@ -76,7 +78,7 @@
         android:textColor="@android:color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/sizeText"
+        app:layout_constraintTop_toBottomOf="@id/durationText"
         tools:text="€24.50" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,10 +21,7 @@
         android:label="fragment_activities"
         tools:layout="@layout/fragment_activities" >
         <action
-            android:id="@+id/action_action_activities_to_detailActivitiesFragment"
-            app:destination="@id/detailActivitiesFragment" />
-        <action
-            android:id="@+id/action_action_activities_to_detailActivitiesFragment2"
+            android:id="@+id/action_activitiesFragment_to_detailActivitiesFragment"
             app:destination="@id/detailActivitiesFragment" />
     </fragment>
     <fragment
@@ -44,7 +41,8 @@
     <fragment
         android:id="@+id/detailActivitiesFragment"
         android:name="com.example.islandofhvar.activities.DetailActivitiesFragment"
-        android:label="DetailActivitiesFragment" />
+        android:label="DetailActivitiesFragment"
+        tools:layout="@layout/fragment_activities_detail" />
     <activity
         android:id="@+id/mainActivity"
         android:name="com.example.islandofhvar.MainActivity"

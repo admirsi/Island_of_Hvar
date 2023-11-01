@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/cartHeaderText"
+        android:id="@+id/activitiesHeaderText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartHeaderText"
+        app:layout_constraintTop_toBottomOf="@+id/activitiesHeaderText"
         app:layout_constraintVertical_bias="0.0"
         app:spanCount="2"
         tools:listitem="@layout/product_item" />

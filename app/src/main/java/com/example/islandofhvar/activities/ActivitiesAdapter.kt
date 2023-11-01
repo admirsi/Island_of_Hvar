@@ -28,12 +28,12 @@ class ActivitiesAdapter(private val items: List<Activities>, private val onItemC
         val activities = items[position]
 
         with(holder.binding) {
-            productImage.load(activities.imageFile) {
+            activitiesImage.load(activities.imageFile) {
                 crossfade(true)
             }
-            productNameText.text = activities.name
-            sizeText.text = sizeText.context.resources.getString(
-                R.string.product_size_label,
+            activitiesNameText.text = activities.name
+            durationText.text = durationText.context.resources.getString(
+                R.string.activities_length_label,
                 activities.duration
             )
             priceText.text = NumberFormat.getCurrencyInstance().format(activities.price)

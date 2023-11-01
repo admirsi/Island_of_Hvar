@@ -10,7 +10,8 @@ import com.example.islandofhvar.databinding.FragmentActivitiesBinding
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.islandofhvar.LOG_TAG
-import com.example.islandofhvar.R.id.action_shopFragment_to_detailFragment
+import com.example.islandofhvar.R.id.action_activitiesFragment_to_detailActivitiesFragment
+
 
 
 
@@ -24,7 +25,7 @@ class ActivitiesFragment : Fragment() {
     private val onItemClick: (Activities) -> Unit = { activities ->
         Log.i(LOG_TAG, "the selected activities: $activities")
         viewModel?.selectedActivities?.value = activities
-        findNavController().navigate(action_shopFragment_to_detailFragment)
+        findNavController().navigate(action_activitiesFragment_to_detailActivitiesFragment)
     }
 
 
@@ -43,8 +44,8 @@ class ActivitiesFragment : Fragment() {
             ViewModelProvider(requireActivity())[SharedActivitiesModel::class.java]
         }
 
-        viewModel?.activities?.observe(viewLifecycleOwner) { products ->
-            binding.productList.adapter = ActivitiesAdapter(products, onItemClick)
+        viewModel?.activities?.observe(viewLifecycleOwner) { activities ->
+            binding.activitiesList.adapter = ActivitiesAdapter(activities, onItemClick)
         }
     }
 
