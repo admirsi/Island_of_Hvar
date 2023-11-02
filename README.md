@@ -9,6 +9,11 @@ Hvar is vaguely shaped like the profile of a holidaymaker reclining on a sun-lou
 	- Android Studio
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 
+## Download
+![App Download][app-download-url]	
+
+## App Demo
+![Demo Video][demo-video-url]	
 
 ### Developer
 
@@ -17,3 +22,5 @@ Admir Sivro
 _Software Developer, Educator, Trainer_
 
 [project-thumbnail-url]: https://shorturl.at/ruwRU
+[demo-video-url]: https://youtube.com/shorts/PMmK4Gfo_T4?
+[app-download-url]: https://shorturl.at/acisT
