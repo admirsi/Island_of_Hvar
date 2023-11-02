@@ -10,10 +10,10 @@ Hvar is vaguely shaped like the profile of a holidaymaker reclining on a sun-lou
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 
 ## Download
-![App Download][app-download-url]	
+[App Download][app-download-url]	
 
 ## App Demo
-![Demo Video][demo-video-url]	
+[Demo Video][demo-video-url]	
 
 ### Developer
 
